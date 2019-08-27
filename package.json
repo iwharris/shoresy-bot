@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/iwharris/shoresy-bot#readme",
   "dependencies": {
+    "@types/lodash": "^4.14.137",
     "@types/node": "^12.7.2",
     "lodash": "^4.17.15",
     "nodemon": "^1.19.1",

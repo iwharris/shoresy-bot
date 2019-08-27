@@ -12,5 +12,14 @@ export default {
     },
     watcher: {
         subreddits: ['UnexpectedLetterkenny', 'Letterkenny'],
+        // subreddits: ['test'],
+        interval: 5 * 60 * 1000, // ms
+    },
+    chirps: {
+        dryRun: false,
+        redditorBlacklist: [
+            'shoresy___bot', // self
+            'remindmebot',
+        ].map((b) => b.toLowerCase()),
     },
 };
