@@ -1,0 +1,19 @@
+{
+    "include": ["src/**/*.ts", "test/**/*"],
+    "compilerOptions": {
+        "incremental": true,
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "outDir": "dist",
+        "alwaysStrict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "lib": ["es6"],
+    }
+}

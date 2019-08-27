@@ -1,0 +1,1693 @@
+{
+  "program": {
+    "fileInfos": {
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es6.d.ts": {
+        "version": "c180f01a2aaac7d733001fa1db20f881dc83cf33096b674a1546ca26762e69da",
+        "signature": "c180f01a2aaac7d733001fa1db20f881dc83cf33096b674a1546ca26762e69da"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0",
+        "signature": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
+        "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843",
+        "signature": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "973df4e41aea3780ce77073777d37dd5896f684124f4c42409f3a832133837a4",
+        "signature": "973df4e41aea3780ce77073777d37dd5896f684124f4c42409f3a832133837a4"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "eb843da29336c7d5840bb439b24cf68a4a1652fd01c6e4e66ec74d8b136e944a",
+        "signature": "eb843da29336c7d5840bb439b24cf68a4a1652fd01c6e4e66ec74d8b136e944a"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
+        "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
+        "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52",
+        "signature": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0",
+        "signature": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3",
+        "signature": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21",
+        "signature": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2",
+        "signature": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4",
+        "signature": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
+        "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
+        "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
+        "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
+        "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4",
+        "signature": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0",
+        "signature": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62",
+        "signature": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8",
+        "signature": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8",
+        "signature": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8"
+      },
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.esnext.bigint.d.ts": {
+        "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
+        "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
+      },
+      "c:/users/iharris/projects/shoresy-bot/src/config.ts": {
+        "version": "c8b2b82f53ce52e01e9e84e4a97f57927e3813bc6dc7b923cd429a7f95aaaecc",
+        "signature": "6200631a366124c6d5d71d9609d301f032f4bb001b7e0052feb6ab5068d18a46"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts": {
+        "version": "0516a47570e9de913bb2ca94a04cbc530fe15257c095e64b78c88e71d612243a",
+        "signature": "0516a47570e9de913bb2ca94a04cbc530fe15257c095e64b78c88e71d612243a"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts": {
+        "version": "45e7eb6e88e1fbf27472f7478f3b3cb4f48cf310e02460984fa1d0a8c4ac6cdf",
+        "signature": "45e7eb6e88e1fbf27472f7478f3b3cb4f48cf310e02460984fa1d0a8c4ac6cdf"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/replyablecontent.d.ts": {
+        "version": "7040146b6a0ba5ae856f0b866e431edfc0d56ff24b045ddc88b55a6748fe2742",
+        "signature": "7040146b6a0ba5ae856f0b866e431edfc0d56ff24b045ddc88b55a6748fe2742"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/privatemessage.d.ts": {
+        "version": "539e83c51cb20aa66b45bd849d5f831fdcd00cc776858e316a9f6f25afd117be",
+        "signature": "539e83c51cb20aa66b45bd849d5f831fdcd00cc776858e316a9f6f25afd117be"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/voteablecontent.d.ts": {
+        "version": "574c690331457a4a6758d47f4df2eea7aba233c2bf5b7c5f35950571f601840c",
+        "signature": "574c690331457a4a6758d47f4df2eea7aba233c2bf5b7c5f35950571f601840c"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/submission.d.ts": {
+        "version": "3e86e809c579d4d8aaad159948e99ca71fdf9b4e0fc069c8db10d08e9f695599",
+        "signature": "3e86e809c579d4d8aaad159948e99ca71fdf9b4e0fc069c8db10d08e9f695599"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/wikipage.d.ts": {
+        "version": "d5c3f217cafbdc9b136df0b16861d27b377f4d9b977ab621fc32f976fd8dbdea",
+        "signature": "d5c3f217cafbdc9b136df0b16861d27b377f4d9b977ab621fc32f976fd8dbdea"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/modmailconversationauthor.d.ts": {
+        "version": "73fd0f3fa81ffb8fcd24079d53f40501755b73d39f4af1a1e7cf6335af291de8",
+        "signature": "73fd0f3fa81ffb8fcd24079d53f40501755b73d39f4af1a1e7cf6335af291de8"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/modmailconversation.d.ts": {
+        "version": "b52dc0db86280cb6dbdc26eae520b01a15f0268b45db4fb93ac30a3baf92b56b",
+        "signature": "b52dc0db86280cb6dbdc26eae520b01a15f0268b45db4fb93ac30a3baf92b56b"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts": {
+        "version": "91ae4ff3b7a54af35c8197ecfc015bc9c8ac592c6ad37a34cd7a228151d939a9",
+        "signature": "91ae4ff3b7a54af35c8197ecfc015bc9c8ac592c6ad37a34cd7a228151d939a9"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/multireddit.d.ts": {
+        "version": "d03f7f568797927e2e55dde38e07383d7c4d8c7d484317a5a7230f9b3c1a5583",
+        "signature": "d03f7f568797927e2e55dde38e07383d7c4d8c7d484317a5a7230f9b3c1a5583"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts": {
+        "version": "e0e0d7d433449dc08a1cd8660676c424b19961f85bae2bf789273ae66f7ee1d5",
+        "signature": "e0e0d7d433449dc08a1cd8660676c424b19961f85bae2bf789273ae66f7ee1d5"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/comment.d.ts": {
+        "version": "d1beff9da958816d9b4e6612853e9c51289fe9cea439313d01076f042148e04e",
+        "signature": "d1beff9da958816d9b4e6612853e9c51289fe9cea439313d01076f042148e04e"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/events/index.d.ts": {
+        "version": "400db42c3a46984118bff14260d60cec580057dc1ab4c2d7310beb643e4f5935",
+        "signature": "400db42c3a46984118bff14260d60cec580057dc1ab4c2d7310beb643e4f5935"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/livethread.d.ts": {
+        "version": "d3bad93fe2dc6dddc223c49bf1f6a1e54cab5346d817f06a03cc21bc080ea58a",
+        "signature": "d3bad93fe2dc6dddc223c49bf1f6a1e54cab5346d817f06a03cc21bc080ea58a"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/index.d.ts": {
+        "version": "ad6ccf521f6596ef6eebc856bd364b27a8bc80a92fc5aa50129db24b1d0f29c7",
+        "signature": "ad6ccf521f6596ef6eebc856bd364b27a8bc80a92fc5aa50129db24b1d0f29c7"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/snoowrap.d.ts": {
+        "version": "702c09cafb98e0ea18c6fa6a94028167f4ff9f677503e7e1871e2f7fb014454d",
+        "signature": "702c09cafb98e0ea18c6fa6a94028167f4ff9f677503e7e1871e2f7fb014454d"
+      },
+      "c:/users/iharris/projects/shoresy-bot/src/index.ts": {
+        "version": "23a5dad4e451cac6add50bf8d20caca2bddd9855c7a2ffb8b81377e38e721020",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/globals.d.ts": {
+        "version": "8b41d4fdf2d67d6e572c2c8fc03b6cfc8f7e13b07a88f88460a3e8463604506b",
+        "signature": "8b41d4fdf2d67d6e572c2c8fc03b6cfc8f7e13b07a88f88460a3e8463604506b"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/assert.d.ts": {
+        "version": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f",
+        "signature": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/async_hooks.d.ts": {
+        "version": "138476cfdccbb9e2c7e06602bc216af843a56c4f3469a79106bc660ba94bd66a",
+        "signature": "138476cfdccbb9e2c7e06602bc216af843a56c4f3469a79106bc660ba94bd66a"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/buffer.d.ts": {
+        "version": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d",
+        "signature": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/child_process.d.ts": {
+        "version": "df18c49bd3f5c6c9497a9986bb6dd6a40ae7195a3f0265a7b558736fb7333356",
+        "signature": "df18c49bd3f5c6c9497a9986bb6dd6a40ae7195a3f0265a7b558736fb7333356"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/cluster.d.ts": {
+        "version": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a",
+        "signature": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/console.d.ts": {
+        "version": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d",
+        "signature": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/constants.d.ts": {
+        "version": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598",
+        "signature": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/crypto.d.ts": {
+        "version": "a15466cfe77b4f8bcd936634d3d2828ee340819c3f136d31f87d6084e86994d0",
+        "signature": "a15466cfe77b4f8bcd936634d3d2828ee340819c3f136d31f87d6084e86994d0"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dgram.d.ts": {
+        "version": "b6c6861bccf209a98eeddb99bdb7bd987fb29fc52130d5d9fd2f79d3607a0a7a",
+        "signature": "b6c6861bccf209a98eeddb99bdb7bd987fb29fc52130d5d9fd2f79d3607a0a7a"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dns.d.ts": {
+        "version": "05e732266b5a36789fd9eb846b1f45fec1b6e318b740e3f20fc22fd95f9ebf31",
+        "signature": "05e732266b5a36789fd9eb846b1f45fec1b6e318b740e3f20fc22fd95f9ebf31"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/domain.d.ts": {
+        "version": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa",
+        "signature": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts": {
+        "version": "cff7f1ff41519a28adfedb85b9d91325e13d7993bebcfd0dd9ce30c3ed1240bb",
+        "signature": "cff7f1ff41519a28adfedb85b9d91325e13d7993bebcfd0dd9ce30c3ed1240bb"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/fs.d.ts": {
+        "version": "258fa562adef4a94ea5b1ce265c607eb2d2067157601856296c24e874878f07a",
+        "signature": "258fa562adef4a94ea5b1ce265c607eb2d2067157601856296c24e874878f07a"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http.d.ts": {
+        "version": "cc4cd9d8af7f5689b5df3c91d0fc287fafbd89e6e305183da28a6877a8aa08a8",
+        "signature": "cc4cd9d8af7f5689b5df3c91d0fc287fafbd89e6e305183da28a6877a8aa08a8"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http2.d.ts": {
+        "version": "28fdca6c7a3d5dd62c738461051ef345b50d167efab39dceb2fcc9a079db1b07",
+        "signature": "28fdca6c7a3d5dd62c738461051ef345b50d167efab39dceb2fcc9a079db1b07"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/https.d.ts": {
+        "version": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6",
+        "signature": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/inspector.d.ts": {
+        "version": "8cfa78f4c052a93ac1e7accb0a78ce331dbd14f277ee0e193279ec31ce7efb25",
+        "signature": "8cfa78f4c052a93ac1e7accb0a78ce331dbd14f277ee0e193279ec31ce7efb25"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/module.d.ts": {
+        "version": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66",
+        "signature": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts": {
+        "version": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50",
+        "signature": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/os.d.ts": {
+        "version": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486",
+        "signature": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/path.d.ts": {
+        "version": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36",
+        "signature": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f",
+        "signature": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/process.d.ts": {
+        "version": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389",
+        "signature": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/punycode.d.ts": {
+        "version": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1",
+        "signature": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/querystring.d.ts": {
+        "version": "e0070c45bf15b872f58eee948f71ad6f4f424f36330b2477753fc1aed3ece36e",
+        "signature": "e0070c45bf15b872f58eee948f71ad6f4f424f36330b2477753fc1aed3ece36e"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/readline.d.ts": {
+        "version": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c",
+        "signature": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/repl.d.ts": {
+        "version": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157",
+        "signature": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts": {
+        "version": "15087156b728a1bdf46de0e1299f904c6a658af37f80851f6fe76fb21bb99b65",
+        "signature": "15087156b728a1bdf46de0e1299f904c6a658af37f80851f6fe76fb21bb99b65"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/string_decoder.d.ts": {
+        "version": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948",
+        "signature": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/timers.d.ts": {
+        "version": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "signature": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tls.d.ts": {
+        "version": "8fd6756e8a6fac64089e19e4fbe822bcfafa62f79b237172288eaa1379e84083",
+        "signature": "8fd6756e8a6fac64089e19e4fbe822bcfafa62f79b237172288eaa1379e84083"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/trace_events.d.ts": {
+        "version": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662",
+        "signature": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tty.d.ts": {
+        "version": "9e666de17856eb640570276c9c71755080f0ba0bfea840438cabf25ef063886e",
+        "signature": "9e666de17856eb640570276c9c71755080f0ba0bfea840438cabf25ef063886e"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts": {
+        "version": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7",
+        "signature": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts": {
+        "version": "20e55abae3dd750a85fda7c4d140670ada679c3d5b640de5e4f3eaafcee18a0d",
+        "signature": "20e55abae3dd750a85fda7c4d140670ada679c3d5b640de5e4f3eaafcee18a0d"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/v8.d.ts": {
+        "version": "6ad2dd29dbf3aea031062298e9978d4b2a1fadd0997eb9d8caaf95aaa89e7033",
+        "signature": "6ad2dd29dbf3aea031062298e9978d4b2a1fadd0997eb9d8caaf95aaa89e7033"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/vm.d.ts": {
+        "version": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9",
+        "signature": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/worker_threads.d.ts": {
+        "version": "16de20ae20cd1d948409a56b55832f3d416c66c8cb44bb8475e1e9db14d8e402",
+        "signature": "16de20ae20cd1d948409a56b55832f3d416c66c8cb44bb8475e1e9db14d8e402"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/zlib.d.ts": {
+        "version": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9",
+        "signature": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/base.d.ts": {
+        "version": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce",
+        "signature": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts": {
+        "version": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c",
+        "signature": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/globals.d.ts": {
+        "version": "ce6b191c382ee19f23678b8c364484627bcf424e8f408357a2f5530fb8d52a45",
+        "signature": "ce6b191c382ee19f23678b8c364484627bcf424e8f408357a2f5530fb8d52a45"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/index.d.ts": {
+        "version": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c",
+        "signature": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/agent-base/index.d.ts": {
+        "version": "91a0da0fc209f5d343a0f780b23ef2bdd0a4ed3af667557e1b4bff25958d8ef6",
+        "signature": "91a0da0fc209f5d343a0f780b23ef2bdd0a4ed3af667557e1b4bff25958d8ef6"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/bunyan/index.d.ts": {
+        "version": "d9cb063f3a5d16883872bdb04863a3da6b63828661a0dcdcb013de8eb4fac336",
+        "signature": "d9cb063f3a5d16883872bdb04863a3da6b63828661a0dcdcb013de8eb4fac336"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/debug/index.d.ts": {
+        "version": "3cf5f191d75bbe7c92f921e5ae12004ac672266e2be2ece69f40b1d6b1b678f9",
+        "signature": "3cf5f191d75bbe7c92f921e5ae12004ac672266e2be2ece69f40b1d6b1b678f9"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/restify/index.d.ts": {
+        "version": "31177b90f4d301046b9dc84f8b0f323d552183ce647671a0fc961a237a208bdf",
+        "signature": "31177b90f4d301046b9dc84f8b0f323d552183ce647671a0fc961a237a208bdf"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/semver/index.d.ts": {
+        "version": "bb95470284971cf0cce66a339224fa5db412729bf3e22c2c02a1c343fd4444ab",
+        "signature": "bb95470284971cf0cce66a339224fa5db412729bf3e22c2c02a1c343fd4444ab"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/xml2js/lib/processors.d.ts": {
+        "version": "c0288f54de6f544706a3150c8b579b1a975870695c4be866f727ece6a16f3976",
+        "signature": "c0288f54de6f544706a3150c8b579b1a975870695c4be866f727ece6a16f3976"
+      },
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/xml2js/index.d.ts": {
+        "version": "b39516514dddbd0abac5263dd2a906fcfa4df44c15742f490dfe222a252b5af3",
+        "signature": "b39516514dddbd0abac5263dd2a906fcfa4df44c15742f490dfe222a252b5af3"
+      }
+    },
+    "options": {
+      "incremental": true,
+      "target": 2,
+      "module": 1,
+      "declaration": true,
+      "outDir": "C:/Users/iharris/projects/shoresy-bot/dist",
+      "rootDir": "C:/Users/iharris/projects/shoresy-bot/src",
+      "strict": true,
+      "moduleResolution": 2,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "watch": true,
+      "configFilePath": "C:/Users/iharris/projects/shoresy-bot/tsconfig.json"
+    },
+    "referencedMap": {
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es6.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es5.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.dom.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.scripthost.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/src/config.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/snoowrap.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/snoowrap.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/replyablecontent.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/privatemessage.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/replyablecontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/voteablecontent.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/replyablecontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/submission.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/snoowrap.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/comment.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/voteablecontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/wikipage.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/submission.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/modmailconversationauthor.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/modmailconversation.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/modmailconversationauthor.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/snoowrap.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/comment.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/privatemessage.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/submission.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/voteablecontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/wikipage.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/modmailconversation.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/multireddit.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/comment.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/multireddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/submission.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/comment.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/voteablecontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/events/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/livethread.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/submission.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/comment.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/livethread.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/modmailconversation.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/multireddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/privatemessage.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/replyablecontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/submission.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/voteablecontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/wikipage.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/snoowrap.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/index.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/src/index.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/snoowrap.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/src/config.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/globals.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/assert.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/async_hooks.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/buffer.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/child_process.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/cluster.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/child_process.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/console.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/constants.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/crypto.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dgram.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dns.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dns.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/domain.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/fs.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http2.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/fs.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tls.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/https.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tls.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/inspector.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/module.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dns.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/os.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/path.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/perf_hooks.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/async_hooks.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/process.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/punycode.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/querystring.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/readline.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/repl.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/readline.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/vm.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/string_decoder.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/timers.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tls.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/crypto.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dns.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/trace_events.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tty.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/querystring.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/v8.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/vm.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/worker_threads.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/vm.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/zlib.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/base.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/globals.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/assert.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/async_hooks.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/buffer.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/child_process.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/cluster.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/console.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/constants.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/crypto.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dgram.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dns.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/domain.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/fs.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http2.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/https.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/inspector.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/module.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/os.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/path.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/perf_hooks.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/process.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/punycode.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/querystring.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/readline.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/repl.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/string_decoder.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/timers.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tls.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/trace_events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tty.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/v8.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/vm.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/worker_threads.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/zlib.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/globals.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/base.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/globals.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/agent-base/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/bunyan/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/debug/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/restify/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/bunyan/index.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/semver/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/xml2js/lib/processors.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/xml2js/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/xml2js/lib/processors.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es6.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es5.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.dom.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.scripthost.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/snoowrap.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/snoowrap.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/replyablecontent.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/privatemessage.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/replyablecontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/voteablecontent.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/replyablecontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/submission.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/snoowrap.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/comment.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/voteablecontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/wikipage.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/submission.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/modmailconversationauthor.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/modmailconversation.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/modmailconversationauthor.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/snoowrap.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/comment.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/privatemessage.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/submission.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/voteablecontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/wikipage.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/modmailconversation.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/multireddit.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/comment.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/multireddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/submission.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/comment.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/voteablecontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/events/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/livethread.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/submission.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/comment.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/livethread.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/modmailconversation.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/multireddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/privatemessage.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/replyablecontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/submission.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/voteablecontent.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/wikipage.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/snoowrap.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/index.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/globals.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/assert.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/async_hooks.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/buffer.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/child_process.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/cluster.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/child_process.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/console.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/constants.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/crypto.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dgram.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dns.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dns.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/domain.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/fs.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http2.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/fs.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tls.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/https.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tls.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/inspector.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/module.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dns.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/os.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/path.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/perf_hooks.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/async_hooks.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/process.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/punycode.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/querystring.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/readline.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/repl.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/readline.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/vm.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/string_decoder.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/timers.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tls.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/crypto.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dns.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/trace_events.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tty.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/querystring.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/v8.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/vm.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/worker_threads.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/vm.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/zlib.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/base.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/globals.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/assert.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/async_hooks.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/buffer.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/child_process.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/cluster.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/console.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/constants.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/crypto.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dgram.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dns.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/domain.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/fs.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http2.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/https.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/inspector.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/module.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/os.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/path.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/perf_hooks.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/process.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/punycode.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/querystring.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/readline.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/repl.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/string_decoder.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/timers.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tls.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/trace_events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tty.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/v8.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/vm.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/worker_threads.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/zlib.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/globals.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/base.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/globals.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/agent-base/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/bunyan/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/debug/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/restify/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/bunyan/index.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/semver/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/xml2js/lib/processors.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/xml2js/index.d.ts": [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/xml2js/lib/processors.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+        "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es6.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es5.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2016.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.dom.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "c:/users/iharris/appdata/roaming/nvm/v12.6.0/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/src/config.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/listing.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/redditcontent.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/replyablecontent.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/privatemessage.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/voteablecontent.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/submission.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/wikipage.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/modmailconversationauthor.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/modmailconversation.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/subreddit.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/multireddit.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/reddituser.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/comment.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/events/index.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/livethread.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/objects/index.d.ts",
+      [
+        "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/snoowrap.d.ts",
+        [
+          {
+            "file": "c:/users/iharris/projects/shoresy-bot/node_modules/snoowrap/dist/snoowrap.d.ts",
+            "start": 236,
+            "length": 9,
+            "code": 7016,
+            "category": 1,
+            "messageText": {
+              "messageText": "Could not find a declaration file for module 'request'. 'C:/Users/iharris/projects/shoresy-bot/node_modules/request/index.js' implicitly has an 'any' type.",
+              "category": 1,
+              "code": 7016,
+              "next": {
+                "messageText": "Try `npm install @types/request` if it exists or add a new declaration (.d.ts) file containing `declare module 'request';`",
+                "category": 1,
+                "code": 7035
+              }
+            }
+          }
+        ]
+      ],
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/globals.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/assert.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/async_hooks.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/buffer.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/child_process.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/cluster.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/console.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/constants.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/crypto.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dgram.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/dns.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/domain.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/events.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/fs.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/http2.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/https.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/inspector.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/module.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/net.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/os.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/path.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/perf_hooks.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/process.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/punycode.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/querystring.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/readline.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/repl.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/stream.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/string_decoder.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/timers.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tls.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/trace_events.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/tty.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/url.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/util.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/v8.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/vm.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/worker_threads.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/zlib.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/base.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/util.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/globals.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/node/ts3.2/index.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/agent-base/index.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/bunyan/index.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/debug/index.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/restify/index.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/semver/index.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/xml2js/lib/processors.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/node_modules/@types/xml2js/index.d.ts",
+      "c:/users/iharris/projects/shoresy-bot/src/index.ts"
+    ]
+  },
+  "version": "3.5.3"
+}

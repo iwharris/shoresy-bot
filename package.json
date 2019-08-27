@@ -1,0 +1,45 @@
+{
+  "name": "shoresy-bot",
+  "version": "0.0.1",
+  "description": "A bot that chirps redditors with quotes from our favorite Letterkenny character",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "nodemon dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwharris/shoresy-bot.git"
+  },
+  "keywords": [
+    "shoresy",
+    "letterkenny",
+    "reddit",
+    "bot",
+    "typescript"
+  ],
+  "author": "Ian Harris",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/iwharris/shoresy-bot/issues"
+  },
+  "homepage": "https://github.com/iwharris/shoresy-bot#readme",
+  "dependencies": {
+    "@types/node": "^12.7.2",
+    "lodash": "^4.17.15",
+    "nodemon": "^1.19.1",
+    "snoowrap": "^1.19.0",
+    "typescript": "^3.5.3",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "1.18.2",
+    "ts-node": "^8.3.0"
+  }
+}
