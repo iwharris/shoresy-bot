@@ -4,7 +4,7 @@ dotenv.config();
 
 export default {
     client: {
-        userAgent: 'shorsey-bot',
+        userAgent: 'shorsey-bot-1.0',
         clientId: process.env.REDDIT_AUTH_CLIENT_ID,
         clientSecret: process.env.REDDIT_AUTH_CLIENT_SECRET,
         username: process.env.REDDIT_AUTH_USERNAME,
@@ -13,7 +13,7 @@ export default {
     watcher: {
         subreddits: ['UnexpectedLetterkenny', 'Letterkenny'],
         // subreddits: ['test'],
-        interval: 5 * 60 * 1000, // ms
+        interval: 1 * 60 * 1000, // ms
     },
     chirps: {
         dryRun: false,
