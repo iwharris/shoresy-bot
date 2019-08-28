@@ -3,6 +3,7 @@ import Snoowrap from 'snoowrap';
 import config from './config';
 import { Matchers, IMatcherContext } from './chirps';
 import * as util from './util';
+import logger from './logger';
 
 const { client, watcher, chirps } = config;
 
@@ -12,15 +13,15 @@ const subreddits = watcher.subreddits;
 
 async function main() {
     const myName = await reddit.getMe().name;
-    console.log(`Running bot with user-agent "${client.userAgent}"`);
-    console.log(`My name is ${myName}, ya titfucker!`);
+    logger.info(`Running bot with user-agent "${client.userAgent}"`);
+    logger.info(`My Reddit username is ${myName}, ya titfucker!`);
     while (true) {
         try {
             const promises = subreddits.map(async (subredditName) => {
                 const subreddit = reddit.getSubreddit(subredditName);
+                logger.debug(`Fetching comments from /r/${subredditName}...`);
                 const comments = await subreddit.getNewComments();
-                console.log(`Fetching comments from /r/${subredditName}...`);
-                console.log(`Got ${comments.length} comments.`);
+                logger.debug(`Got ${comments.length} comments.`);
                 const matchers = new Matchers();
                 comments
                     .filter((c) => !util.isBlacklistedRedditor(c.author.name, chirps.redditorBlacklist))
@@ -38,10 +39,10 @@ async function main() {
                         if (match) {
                             c.replies = await c.replies.fetchAll();
                             if (c.replies.find((r) => r.author.name === myName)) {
-                                console.log(`I already chirped ${authorName} before, ya titfucker!`);
+                                logger.debug(`I already chirped ${authorName} before, ya titfucker!`);
                             } else {
                                 const chirp = match.getChirp(context);
-                                console.log(`Chirping ${authorName} on /r/${subredditName}: ${chirp}`);
+                                logger.info(`Chirping ${authorName} on /r/${subredditName}: ${chirp}`);
                                 if (!chirps.dryRun) {
                                     c.reply(chirp);
                                 }
@@ -51,9 +52,9 @@ async function main() {
             });
 
             promises.push(new Promise((resolve) => setTimeout(resolve, watcher.interval)));
-            await Promise.all(promises).catch((e) => console.warn(`Got an error, ya titfucker! ${e.message}`));
+            await Promise.all(promises).catch((e) => logger.warn(`Got an error, ya titfucker! ${e.message}`));
         } catch (e) {
-            console.warn(`It's fuckin' amateur hour in here! ${e.message}`);
+            logger.error(`It's fuckin' amateur hour in here! ${e.message}`);
         }
     }
 }
