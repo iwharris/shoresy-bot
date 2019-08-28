@@ -6,8 +6,11 @@
   "scripts": {
     "dev": "nodemon",
     "build": "tsc",
-    "start": "node dist/index.js",
-    "start:production": "NODE_ENV=production node dist/index.js",
+    "start": "npm run build && forever start --minUptime 5000 --spinSleepTime 1000 dist/index.js",
+    "list": "forever list",
+    "stop": "forever stopall",
+    "forever": "forever",
+    "start:production": "NODE_ENV=production npm run start",
     "test": "echo \"Shoresy wouldn't write tests; give yer balls a tug!\" && exit 0"
   },
   "repository": {
@@ -29,6 +32,7 @@
   "homepage": "https://github.com/iwharris/shoresy-bot#readme",
   "dependencies": {
     "dotenv": "^8.1.0",
+    "forever": "^1.0.0",
     "lodash": "^4.17.15",
     "nodemon": "^1.19.1",
     "snoowrap": "^1.19.0",
