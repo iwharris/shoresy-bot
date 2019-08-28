@@ -12,6 +12,7 @@ const subreddits = watcher.subreddits;
 
 async function main() {
     const myName = await reddit.getMe().name;
+    console.log(`Running bot with user-agent "${client.userAgent}"`);
     console.log(`My name is ${myName}, ya titfucker!`);
     while (true) {
         try {

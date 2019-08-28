@@ -2,9 +2,11 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+const packageName = process.env.npm_package_name || 'N/A';
+
 export default {
     client: {
-        userAgent: 'shorsey-bot-1.0',
+        userAgent: `node:${process.env.npm_package_name}:v${process.env.npm_package_version}`,
         clientId: process.env.REDDIT_AUTH_CLIENT_ID,
         clientSecret: process.env.REDDIT_AUTH_CLIENT_SECRET,
         username: process.env.REDDIT_AUTH_USERNAME,
