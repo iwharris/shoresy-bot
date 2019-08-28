@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "nodemon",
     "build": "tsc",
-    "start": "dist/index.js",
-    "test": "echo \"Shoresy wouldn't write tests, give yer balls a tug!\" && exit 0"
+    "start": "node dist/index.js",
+    "start:production": "NODE_ENV=production node dist/index.js",
+    "test": "echo \"Shoresy wouldn't write tests; give yer balls a tug!\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -27,8 +28,7 @@
   },
   "homepage": "https://github.com/iwharris/shoresy-bot#readme",
   "dependencies": {
-    "@types/lodash": "^4.14.137",
-    "@types/node": "^12.7.2",
+    "dotenv": "^8.1.0",
     "lodash": "^4.17.15",
     "nodemon": "^1.19.1",
     "snoowrap": "^1.19.0",
@@ -36,7 +36,8 @@
     "winston": "^3.2.1"
   },
   "devDependencies": {
-    "dotenv": "^8.1.0",
+    "@types/lodash": "^4.14.137",
+    "@types/node": "^12.7.2",
     "eslint": "^6.2.2",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-prettier": "^3.1.0",

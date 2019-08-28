@@ -6,7 +6,8 @@ module.exports = {
     plugins: ['@typescript-eslint'],
     extends: ['plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
     rules: {
-        'no-console': 0,
+        'prettier/prettier': 'warn',
+        'indent': ['error', 4]
     },
     env: {
         node: true,
