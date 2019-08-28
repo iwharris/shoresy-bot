@@ -19,9 +19,8 @@ async function main() {
         try {
             const promises = subreddits.map(async (subredditName) => {
                 const subreddit = reddit.getSubreddit(subredditName);
-                logger.debug(`Fetching comments from /r/${subredditName}...`);
                 const comments = await subreddit.getNewComments();
-                logger.debug(`Got ${comments.length} comments.`);
+                logger.debug(`Fetched ${comments.length} comments from /r/${subredditName}.`);
                 const matchers = new Matchers();
                 comments
                     .filter((c) => !util.isBlacklistedRedditor(c.author.name, chirps.redditorBlacklist))

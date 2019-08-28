@@ -105,7 +105,7 @@ const chirps1 = [
     'Fuck you, <%= name1 %>, you shoulda heard your mom last night, she sounded like my great-aunt when I pull a surprise visit; she sounded like: OOOOOO^OOOOOOO^OOOOOOH!',
     "Fuck you, <%= name1 %>, your mum groped me two Halloweens ago, shut the fuck up or I'll take it to Twitter!",
     'Fuck you, <%= name1 %>, fight me, see what happens!',
-    'Fuck you, <%= name1 %>, tell your mom to give me a time out! Last time I tried that, she threatened to take a header on my into an empty pool at the Quality Suites!',
+    'Fuck you, <%= name1 %>, tell your mom to give me a time out! Last time I tried that, she threatened to take a header on me into an empty pool at the Quality Suites!',
     "Fuck you, <%= name1 %>, tell your mom to leave me alone, she's been laying in my fuckin' water bed since Labour Day!",
 ];
 
