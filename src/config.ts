@@ -5,7 +5,7 @@ dotenv.config();
 
 export default {
     client: {
-        userAgent: `node:${process.env.npm_package_name}:v${process.env.npm_package_version}`,
+        userAgent: `node:${process.env.npm_package_name}:v${process.env.npm_package_version} (by /u/${process.env.REDDIT_AUTH_USERNAME})`,
         clientId: process.env.REDDIT_AUTH_CLIENT_ID,
         clientSecret: process.env.REDDIT_AUTH_CLIENT_SECRET,
         username: process.env.REDDIT_AUTH_USERNAME,
