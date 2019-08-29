@@ -6,6 +6,8 @@ Shoresy is a [beloved](https://youtu.be/LHf1I6rlyDk) character on [Letterkenny](
 
 `shoresy-bot` is a Reddit bot that automatically [chirps](https://www.urbandictionary.com/define.php?term=chirp) Redditors who post comments with certain key words. The bot replies to such comments using a system of matchers to select a random Shoresy quote that is appropriate for the context.
 
+![Give yer balls a tug!](/images/thread.png)
+
 ## Installation
 
 ```bash
