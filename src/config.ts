@@ -3,9 +3,20 @@ import winston = require('winston');
 
 dotenv.config();
 
+const gitHash = process.env.npm_package_gitHead;
+const environment = process.env.NODE_ENV || 'development';
+const packageName = process.env.npm_package_name;
+const packageVersion = process.env.npm_package_version;
+
 export default {
+    app: {
+        gitHash,
+        version: packageVersion,
+        name: packageName,
+        environment,
+    },
     client: {
-        userAgent: `node:${process.env.npm_package_name}:v${process.env.npm_package_version} (by /u/${process.env.REDDIT_AUTH_USERNAME})`,
+        userAgent: `node:${packageName}:v${packageVersion} (by /u/${process.env.REDDIT_AUTH_USERNAME})`,
         clientId: process.env.REDDIT_AUTH_CLIENT_ID,
         clientSecret: process.env.REDDIT_AUTH_CLIENT_SECRET,
         username: process.env.REDDIT_AUTH_USERNAME,
@@ -13,7 +24,6 @@ export default {
     },
     watcher: {
         subreddits: ['UnexpectedLetterkenny', 'Letterkenny'],
-        // subreddits: ['test'],
         interval: 1 * 60 * 1000, // ms
     },
     chirps: {
@@ -30,5 +40,9 @@ export default {
             new winston.transports.File({ filename: 'error.log', level: 'error' }),
             new winston.transports.File({ filename: 'shoresy.log' }),
         ],
+    },
+    sentry: {
+        dsn: process.env.SENTRY_DSN,
+        release: `${packageVersion}${environment === 'development' ? '-dev' : ''}`,
     },
 };

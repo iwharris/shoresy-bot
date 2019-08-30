@@ -1,5 +1,5 @@
 ## Deployments/tooling
-- Error logging to Sentry
+- ~~Error logging to Sentry~~
 - Log logging to some external aggregator (Splunk maybe)
 - CI builds
 
