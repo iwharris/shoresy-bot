@@ -4,8 +4,9 @@ import config from './config';
 import { Matchers, IMatcherContext } from './chirps';
 import * as util from './util';
 import logger from './logger';
+import sentry from './sentry';
 
-const { client, watcher, chirps } = config;
+const { app, client, watcher, chirps } = config;
 
 const reddit = new Snoowrap(client);
 
@@ -13,15 +14,13 @@ const subreddits = watcher.subreddits;
 
 async function main() {
     const myName = await reddit.getMe().name;
-    logger.info(`Running bot with user-agent "${client.userAgent}"`);
     logger.info(`My Reddit username is ${myName}, ya titfucker!`);
     while (true) {
         try {
             const promises = subreddits.map(async (subredditName) => {
                 const subreddit = reddit.getSubreddit(subredditName);
-                logger.debug(`Fetching comments from /r/${subredditName}...`);
                 const comments = await subreddit.getNewComments();
-                logger.debug(`Got ${comments.length} comments.`);
+                logger.debug(`Fetched ${comments.length} comments from /r/${subredditName}.`);
                 const matchers = new Matchers();
                 comments
                     .filter((c) => !util.isBlacklistedRedditor(c.author.name, chirps.redditorBlacklist))
@@ -52,11 +51,19 @@ async function main() {
             });
 
             promises.push(new Promise((resolve) => setTimeout(resolve, watcher.interval)));
-            await Promise.all(promises).catch((e) => logger.warn(`Got an error, ya titfucker! ${e.message}`));
+            await Promise.all(promises)
+            .catch((e) => {
+                logger.warn(`Got an error, ya titfucker! ${e.message}`);
+                sentry.capture(e);
+            });
         } catch (e) {
             logger.error(`It's fuckin' amateur hour in here! ${e.message}`);
+            sentry.capture(e);
         }
     }
 }
 
+logger.info(`${app.name}@${app.version}-${app.environment} [${app.gitHash}]`);
+logger.info(`Running bot with user-agent "${client.userAgent}"`);
+sentry.init();
 main();

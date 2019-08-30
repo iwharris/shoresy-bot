@@ -2,9 +2,11 @@
 
 # shoresy-bot
 
-Shoresy is a [beloved](https://youtu.be/LHf1I6rlyDk) character on [Letterkenny](https://en.wikipedia.org/wiki/Letterkenny_(TV_series)), an important biographical television show that celebrates rural Canadian culture.
+Shoresy is a [beloved](https://youtu.be/LHf1I6rlyDk) character on [Letterkenny](<https://en.wikipedia.org/wiki/Letterkenny_(TV_series)>), an important biographical television show that celebrates rural Canadian culture.
 
-`shoresy-bot` is a Reddit bot that automatically [chirps](https://www.urbandictionary.com/define.php?term=chirp) Redditors who post comments with certain key words. The bot replies to such comments using 
+`shoresy-bot` is a Reddit bot that automatically [chirps](https://www.urbandictionary.com/define.php?term=chirp) Redditors who post comments with certain key words. The bot replies to such comments using a system of matchers to select a random Shoresy quote that is appropriate for the context.
+
+![Give yer balls a tug!](images/thread.png?raw=true)
 
 ## Installation
 
@@ -40,7 +42,7 @@ or, build Typescript and run in a more production-like setting:
 
 ```bash
 npm run build
-npm run start
+npm run start:production
 ```
 
 ## Testing
