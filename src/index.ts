@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import Snoowrap from 'snoowrap';
 import config from './config';
-import { Matchers, IMatcherContext } from './chirps';
+import { Matchers, CommentContext } from './matcher';
 import * as util from './util';
 import logger from './logger';
 import sentry from './sentry';
@@ -26,7 +26,7 @@ async function main() {
                     .filter((c) => !util.isBlacklistedRedditor(c.author.name, chirps.redditorBlacklist))
                     .forEach(async (c) => {
                         const authorName = util.linkName(c.author.name);
-                        const context: IMatcherContext = {
+                        const context: CommentContext = {
                             authorId: c.author.id,
                             authorName,
                             body: util.filterText(c.body, [['\n', '']]),
