@@ -25,7 +25,7 @@ async function main() {
                 comments
                     .filter((c) => !util.isBlacklistedRedditor(c.author.name, chirps.redditorBlacklist))
                     .forEach(async (c) => {
-                        const authorName = `/u/${c.author.name}`
+                        const authorName = util.linkName(c.author.name);
                         const context: IMatcherContext = {
                             authorId: c.author.id,
                             authorName,
