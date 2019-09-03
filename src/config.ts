@@ -7,6 +7,7 @@ const gitHash = process.env.npm_package_gitHead;
 const environment = process.env.NODE_ENV || 'development';
 const packageName = process.env.npm_package_name;
 const packageVersion = process.env.npm_package_version;
+const environmentVersion = `${packageVersion}${environment === 'development' ? '-dev' : ''}`;
 
 export default {
     app: {
@@ -16,7 +17,7 @@ export default {
         environment,
     },
     client: {
-        userAgent: `node:${packageName}:v${packageVersion} (by /u/${process.env.REDDIT_AUTH_USERNAME})`,
+        userAgent: `node:${packageName}:v${environmentVersion} (by /u/${process.env.REDDIT_AUTH_USERNAME})`,
         clientId: process.env.REDDIT_AUTH_CLIENT_ID,
         clientSecret: process.env.REDDIT_AUTH_CLIENT_SECRET,
         username: process.env.REDDIT_AUTH_USERNAME,
@@ -43,6 +44,6 @@ export default {
     },
     sentry: {
         dsn: process.env.SENTRY_DSN,
-        release: `${packageVersion}${environment === 'development' ? '-dev' : ''}`,
+        release: environmentVersion,
     },
 };
