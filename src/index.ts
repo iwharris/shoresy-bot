@@ -14,6 +14,7 @@ const subreddits = watcher.subreddits;
 
 async function main() {
     const myName = await reddit.getMe().name;
+    const blacklist = [...chirps.redditorBlacklist, myName.toLowerCase()];
     logger.info(`My Reddit username is ${myName}, ya titfucker!`);
     while (true) {
         try {
@@ -23,7 +24,7 @@ async function main() {
                 logger.debug(`Fetched ${comments.length} comments from /r/${subredditName}.`);
                 const matchers = new Matchers();
                 comments
-                    .filter((c) => !util.isBlacklistedRedditor(c.author.name, chirps.redditorBlacklist))
+                    .filter((c) => !util.isBlacklistedRedditor(c.author.name, blacklist))
                     .forEach(async (c) => {
                         const authorName = util.linkName(c.author.name);
                         const context: CommentContext = {

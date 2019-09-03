@@ -29,8 +29,8 @@ export default {
     chirps: {
         dryRun: process.env.NODE_ENV !== 'production',
         redditorBlacklist: [
-            'shoresy___bot', // self
             'remindmebot',
+            // Bot's own name will be appended to this list
         ].map((b) => b.toLowerCase()),
     },
     logging: {
