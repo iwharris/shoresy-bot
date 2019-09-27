@@ -6,9 +6,10 @@ import * as util from './util';
 import logger from './logger';
 import sentry from './sentry';
 
-const { app, client, watcher, chirps } = config;
+const { app, clientConfigOptions, clientConnectionOptions, watcher, chirps } = config;
 
-const reddit = new Snoowrap(client);
+const reddit = new Snoowrap(clientConnectionOptions);
+reddit.config(clientConfigOptions);
 
 const subreddits = watcher.subreddits;
 
@@ -65,6 +66,6 @@ async function main() {
 }
 
 logger.info(`${app.name}@${app.version}-${app.environment} [${app.gitHash}]`);
-logger.info(`Running bot with user-agent "${client.userAgent}"`);
+logger.info(`Running bot with user-agent "${clientConnectionOptions.userAgent}"`);
 sentry.init();
 main();
