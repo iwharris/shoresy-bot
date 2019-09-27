@@ -5,3 +5,7 @@ export function filterText(comment: string, replacers: [string, string][] = []):
 export function isBlacklistedRedditor(name: string, blacklist: string[]): boolean {
     return blacklist.includes(name.toLowerCase());
 }
+
+export function linkName(name: string): string {
+    return `/u/${name}`;
+}

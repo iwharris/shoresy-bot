@@ -1,19 +1,21 @@
 import _ from 'lodash';
 import Snoowrap from 'snoowrap';
 import config from './config';
-import { Matchers, IMatcherContext } from './chirps';
+import { Matchers, CommentContext } from './matcher';
 import * as util from './util';
 import logger from './logger';
 import sentry from './sentry';
 
-const { app, client, watcher, chirps } = config;
+const { app, clientConfigOptions, clientConnectionOptions, watcher, chirps } = config;
 
-const reddit = new Snoowrap(client);
+const reddit = new Snoowrap(clientConnectionOptions);
+reddit.config(clientConfigOptions);
 
 const subreddits = watcher.subreddits;
 
 async function main() {
     const myName = await reddit.getMe().name;
+    const blacklist = [...chirps.redditorBlacklist, myName.toLowerCase()];
     logger.info(`My Reddit username is ${myName}, ya titfucker!`);
     while (true) {
         try {
@@ -23,10 +25,10 @@ async function main() {
                 logger.debug(`Fetched ${comments.length} comments from /r/${subredditName}.`);
                 const matchers = new Matchers();
                 comments
-                    .filter((c) => !util.isBlacklistedRedditor(c.author.name, chirps.redditorBlacklist))
+                    .filter((c) => !util.isBlacklistedRedditor(c.author.name, blacklist))
                     .forEach(async (c) => {
-                        const authorName = `/u/${c.author.name}`
-                        const context: IMatcherContext = {
+                        const authorName = util.linkName(c.author.name);
+                        const context: CommentContext = {
                             authorId: c.author.id,
                             authorName,
                             body: util.filterText(c.body, [['\n', '']]),
@@ -64,6 +66,6 @@ async function main() {
 }
 
 logger.info(`${app.name}@${app.version}-${app.environment} [${app.gitHash}]`);
-logger.info(`Running bot with user-agent "${client.userAgent}"`);
+logger.info(`Running bot with user-agent "${clientConnectionOptions.userAgent}"`);
 sentry.init();
 main();

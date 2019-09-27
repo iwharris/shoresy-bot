@@ -1,5 +1,6 @@
 import dotenv from 'dotenv';
-import winston = require('winston');
+import winston from 'winston';
+import Snoowrap from 'snoowrap';
 
 dotenv.config();
 
@@ -7,6 +8,20 @@ const gitHash = process.env.npm_package_gitHead;
 const environment = process.env.NODE_ENV || 'development';
 const packageName = process.env.npm_package_name;
 const packageVersion = process.env.npm_package_version;
+const environmentVersion = `${packageVersion}${environment === 'development' ? '-dev' : ''}`;
+
+const clientConnectionOptions: Snoowrap.SnoowrapOptions = {
+    userAgent: `node:${packageName}:v${environmentVersion} (by /u/${process.env.REDDIT_AUTH_USERNAME})`,
+    clientId: process.env.REDDIT_AUTH_CLIENT_ID,
+    clientSecret: process.env.REDDIT_AUTH_CLIENT_SECRET,
+    username: process.env.REDDIT_AUTH_USERNAME,
+    password: process.env.REDDIT_AUTH_PASSWORD,
+};
+
+const clientConfigOptions: Snoowrap.ConfigOptions = {
+    requestDelay: 1000,
+    continueAfterRatelimitError: true,
+};
 
 export default {
     app: {
@@ -15,13 +30,8 @@ export default {
         name: packageName,
         environment,
     },
-    client: {
-        userAgent: `node:${packageName}:v${packageVersion} (by /u/${process.env.REDDIT_AUTH_USERNAME})`,
-        clientId: process.env.REDDIT_AUTH_CLIENT_ID,
-        clientSecret: process.env.REDDIT_AUTH_CLIENT_SECRET,
-        username: process.env.REDDIT_AUTH_USERNAME,
-        password: process.env.REDDIT_AUTH_PASSWORD,
-    },
+    clientConnectionOptions,
+    clientConfigOptions,
     watcher: {
         subreddits: ['UnexpectedLetterkenny', 'Letterkenny'],
         interval: 1 * 60 * 1000, // ms
@@ -29,8 +39,8 @@ export default {
     chirps: {
         dryRun: process.env.NODE_ENV !== 'production',
         redditorBlacklist: [
-            'shoresy___bot', // self
             'remindmebot',
+            // Bot's own name will be appended to this list
         ].map((b) => b.toLowerCase()),
     },
     logging: {
@@ -43,6 +53,6 @@ export default {
     },
     sentry: {
         dsn: process.env.SENTRY_DSN,
-        release: `${packageVersion}${environment === 'development' ? '-dev' : ''}`,
+        release: environmentVersion,
     },
 };
