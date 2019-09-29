@@ -19,7 +19,7 @@ const clientConnectionOptions: Snoowrap.SnoowrapOptions = {
 };
 
 const clientConfigOptions: Snoowrap.ConfigOptions = {
-    requestDelay: 1000,
+    requestDelay: 0,
     continueAfterRatelimitError: true,
 };
 

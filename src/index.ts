@@ -14,14 +14,28 @@ reddit.config(clientConfigOptions);
 const subreddits = watcher.subreddits;
 
 async function main() {
-    const myName = await reddit.getMe().name;
+    const myName = await reddit.getMe().then((me) => me.name);
     const blacklist = [...chirps.redditorBlacklist, myName.toLowerCase()];
     logger.info(`My Reddit username is ${myName}, ya titfucker!`);
+    const latestCommentTimestamp = subreddits
+        .map((name) => [name, 0])
+        .reduce((acc, [name, lastComment]) => {
+            acc[name] = lastComment;
+            return acc;
+        }, {});
     while (true) {
         try {
             const promises = subreddits.map(async (subredditName) => {
-                const subreddit = reddit.getSubreddit(subredditName);
-                const comments = await subreddit.getNewComments();
+                const rawComments: Snoowrap.Listing<Snoowrap.Comment> = await reddit.getNewComments(subredditName);
+                const comments: Snoowrap.Comment[] = rawComments
+                    // sort in ascending order (newest first)
+                    .sort(util.getPropertyComparator('created_utc', true))
+                    // don't consider comments with an older timestamp than the last-seen comment (eliminates unnecessary requests)
+                    .filter((comment) => comment.created_utc > latestCommentTimestamp[subredditName]);
+
+                // On the next fetch, discard comments older than the newest one from this fetch
+                if (comments.length > 0) latestCommentTimestamp[subredditName] = comments[0].created_utc;
+
                 logger.debug(`Fetched ${comments.length} comments from /r/${subredditName}.`);
                 const matchers = new Matchers();
                 comments
@@ -56,10 +70,12 @@ async function main() {
             await Promise.all(promises)
             .catch((e) => {
                 logger.warn(`Got an error, ya titfucker! ${e.message}`);
+                logger.warn(e);
                 sentry.capture(e);
             });
         } catch (e) {
             logger.error(`It's fuckin' amateur hour in here! ${e.message}`);
+            logger.error(e);
             sentry.capture(e);
         }
     }
