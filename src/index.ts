@@ -70,10 +70,12 @@ async function main() {
             await Promise.all(promises)
             .catch((e) => {
                 logger.warn(`Got an error, ya titfucker! ${e.message}`);
+                logger.warn(e);
                 sentry.capture(e);
             });
         } catch (e) {
             logger.error(`It's fuckin' amateur hour in here! ${e.message}`);
+            logger.error(e);
             sentry.capture(e);
         }
     }
