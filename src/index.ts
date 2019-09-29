@@ -14,7 +14,7 @@ reddit.config(clientConfigOptions);
 const subreddits = watcher.subreddits;
 
 async function main() {
-    const myName = await reddit.getMe().name;
+    const myName = await reddit.getMe().then((me) => me.name);
     const blacklist = [...chirps.redditorBlacklist, myName.toLowerCase()];
     logger.info(`My Reddit username is ${myName}, ya titfucker!`);
     const latestCommentTimestamp = subreddits
