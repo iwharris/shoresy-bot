@@ -12,6 +12,6 @@ export function linkName(name: string): string {
 
 export type ComparatorFunction<T=any> = (a: T, b: T) => number;
 
-export function getPropertyComparator(property: string, reverse: boolean = false): ComparatorFunction {
+export function getPropertySortComparator(property: string, reverse: boolean = false): ComparatorFunction {
     return (a, b) => (reverse ? -1 : 1) * (Number(a[property]) - Number(b[property]));
 }

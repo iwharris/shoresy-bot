@@ -28,8 +28,8 @@ async function main() {
             const promises = subreddits.map(async (subredditName) => {
                 const rawComments: Snoowrap.Listing<Snoowrap.Comment> = await reddit.getNewComments(subredditName);
                 const comments: Snoowrap.Comment[] = rawComments
-                    // sort in ascending order (newest first)
-                    .sort(util.getPropertyComparator('created_utc', true))
+                    // sort by timestamp, descending (newest first)
+                    .sort(util.getPropertySortComparator('created_utc', true))
                     // don't consider comments with an older timestamp than the last-seen comment (eliminates unnecessary requests)
                     .filter((comment) => comment.created_utc > latestCommentTimestamp[subredditName]);
 
