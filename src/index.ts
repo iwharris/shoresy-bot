@@ -59,6 +59,7 @@ async function main() {
                                 const chirp = match.getChirp(context);
                                 logger.info(`Chirping ${authorName} on /r/${subredditName}: ${chirp}`);
                                 if (!chirps.dryRun) {
+                                    await c.upvote().then(() => {});
                                     c.reply(chirp);
                                 }
                             }
