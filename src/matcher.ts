@@ -18,7 +18,7 @@ export interface CommentContext {
     body: string; // filtered and lowercased comment body
     commentChainUsernames: string[];
     name1: string;
-    name2: string;
+    name2?: string;
 }
 
 export type MatchFunc<Context> = (context: Context) => boolean;
@@ -28,20 +28,30 @@ export class Matchers implements IMatchers<CommentContext> {
 
     constructor() {
         const mentionsAny = (ctx: CommentContext, terms: string[]): boolean => terms.some((t) => ctx.body.includes(t));
-        const mentionsAll = (ctx: CommentContext, terms: string[]): boolean =>
-            terms.every((t) => ctx.body.includes(t));
-        const mentionsShorsey = (ctx: CommentContext): boolean => mentionsAny(ctx, shorseySpellings);
+        const mentionsAll = (ctx: CommentContext, terms: string[]): boolean => terms.every((t) => ctx.body.includes(t));
+        const mentionsShoresy = (ctx: CommentContext): boolean => mentionsAny(ctx, shorseySpellings);
+        const threadHasSecondCommenter = (ctx: CommentContext): boolean => !!ctx.name2;
 
         // matchers go from specific to general
         this.matchers = [
             new CommentMatcher((ctx) => mentionsAny(ctx, ['gretz']), chirps.gretz),
-            new CommentMatcher((ctx) => mentionsAny(ctx, ['mister', 'mr']) && mentionsAny(ctx, ['hockey']), chirps.howe),
-            new CommentMatcher((ctx) => mentionsAny(ctx, ['happen']) && mentionsShorsey(ctx), chirps.happen),
-            new CommentMatcher((ctx) => mentionsAny(ctx, ['coming']) && mentionsShorsey(ctx), chirps.coming),
-            new CommentMatcher((ctx) => mentionsAny(ctx, ['line']) && mentionsShorsey(ctx), chirps.lines),
-            new CommentMatcher((ctx) => mentionsAny(ctx, ['ref']) && mentionsShorsey(ctx), chirps.ref),
-            new CommentMatcher((ctx) => mentionsAll(ctx, ['fuck', 'you']) && mentionsShorsey(ctx), [...chirps.chirps, ...chirps.chirps1]),
-            new CommentMatcher((ctx) => mentionsShorsey(ctx), [...chirps.chirps, ...chirps.chirps1]),
+            new CommentMatcher(
+                (ctx) => mentionsAny(ctx, ['mister', 'mr']) && mentionsAny(ctx, ['hockey']),
+                chirps.howe
+            ),
+            new CommentMatcher((ctx) => mentionsAny(ctx, ['happen']) && mentionsShoresy(ctx), chirps.happen),
+            new CommentMatcher((ctx) => mentionsAny(ctx, ['coming']) && mentionsShoresy(ctx), chirps.coming),
+            new CommentMatcher((ctx) => mentionsAny(ctx, ['line']) && mentionsShoresy(ctx), chirps.lines),
+            new CommentMatcher((ctx) => mentionsAny(ctx, ['ref']) && mentionsShoresy(ctx), chirps.ref),
+            new CommentMatcher(
+                (ctx) => mentionsAll(ctx, ['fuck', 'you']) && mentionsShoresy(ctx) && threadHasSecondCommenter(ctx),
+                [...chirps.chirps, ...chirps.chirps1, ...chirps.chirps2]
+            ),
+            new CommentMatcher((ctx) => mentionsAll(ctx, ['fuck', 'you']) && mentionsShoresy(ctx), [
+                ...chirps.chirps,
+                ...chirps.chirps1,
+            ]),
+            new CommentMatcher((ctx) => mentionsShoresy(ctx), [...chirps.chirps, ...chirps.chirps1]),
         ];
     }
 

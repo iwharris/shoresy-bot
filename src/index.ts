@@ -5,6 +5,7 @@ import { Matchers, CommentContext } from './matcher';
 import * as util from './util';
 import logger from './logger';
 import sentry from './sentry';
+import { TypePrefix } from './types';
 
 const { app, clientConfigOptions, clientConnectionOptions, watcher, chirps } = config;
 
@@ -12,6 +13,15 @@ const reddit = new Snoowrap(clientConnectionOptions);
 reddit.config(clientConfigOptions);
 
 const subreddits = watcher.subreddits;
+
+async function fetchParentComments(commentId: string, maxDepth: number = Infinity): Promise<Snoowrap.Comment[]> {
+    maxDepth -= 1;
+    // @ts-ignore
+    const comment: Snoowrap.Comment = await reddit.getComment(commentId).fetch();
+    return !(maxDepth  && comment.parent_id && comment.parent_id.startsWith(TypePrefix.COMMENT))
+        ? [comment]
+        : [comment, ...(await fetchParentComments(comment.parent_id, maxDepth))];
+}
 
 async function main() {
     const myName = await reddit.getMe().then((me) => me.name);
@@ -41,23 +51,34 @@ async function main() {
                 comments
                     .filter((c) => !util.isBlacklistedRedditor(c.author.name, blacklist))
                     .forEach(async (c) => {
-                        const authorName = util.linkName(c.author.name);
+                        const authorLowercaseName = c.author.name.toLowerCase();
+                        const authorLinkName = util.linkName(c.author.name);
+                        const commentChainBlacklist = [...blacklist, authorLowercaseName]; // Don't consider parent comments from this comment's author
+                        const parentComments = await fetchParentComments(c.parent_id, 3);
+                        const commentChainIterable = parentComments
+                            .filter((c) => !util.isBlacklistedRedditor(c.author.name, commentChainBlacklist))
+                            .map((c) => c.author.name)
+                            .reduce(util.uniqueValueReducer, new Set<string>())
+                            .values();
+                        const commentChainUsernames = Array.from(commentChainIterable);
+                        const name2 = _.sample(commentChainUsernames);
+                        
                         const context: CommentContext = {
                             authorId: c.author.id,
-                            authorName,
+                            authorName: authorLinkName,
                             body: util.filterText(c.body, [['\n', '']]),
-                            commentChainUsernames: [authorName],
-                            name1: authorName,
-                            name2: c.parent_id,
+                            commentChainUsernames, // usernames from parent comments
+                            name1: authorLinkName,
+                            name2: name2 ? util.linkName(name2) : undefined,
                         };
                         const match = matchers.getMatch(context);
                         if (match) {
                             c.replies = await c.replies.fetchAll();
                             if (c.replies.find((r) => r.author.name === myName)) {
-                                logger.debug(`I already chirped ${authorName} before, ya titfucker!`);
+                                logger.debug(`I already chirped ${authorLinkName} before, ya titfucker!`);
                             } else {
                                 const chirp = match.getChirp(context);
-                                logger.info(`Chirping ${authorName} on /r/${subredditName}: ${chirp}`);
+                                logger.info(`Chirping ${authorLinkName} on /r/${subredditName}: ${chirp}`);
                                 if (!chirps.dryRun) {
                                     await c.upvote().then(() => {});
                                     c.reply(chirp);
@@ -68,8 +89,7 @@ async function main() {
             });
 
             promises.push(new Promise((resolve) => setTimeout(resolve, watcher.interval)));
-            await Promise.all(promises)
-            .catch((e) => {
+            await Promise.all(promises).catch((e) => {
                 logger.warn(`Got an error, ya titfucker! ${e.message}`);
                 logger.warn(e);
                 sentry.capture(e);
