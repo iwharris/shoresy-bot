@@ -40,6 +40,9 @@ export default {
         dryRun: process.env.NODE_ENV !== 'production',
         redditorBlacklist: [
             'remindmebot',
+            'ClickableLinkBot',
+            '[deleted]',
+            'AutoModerator'
             // Bot's own name will be appended to this list
         ].map((b) => b.toLowerCase()),
     },

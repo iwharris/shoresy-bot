@@ -23,14 +23,14 @@ export const chirps1 = [
     'Fuck you, <%= name1 %>, I made your mum so wet that Trudeau deployed a 24-hour infantry unit to stack sandbags around my bed!',
     "Fuck you, <%= name1 %>, your mum liked one of my Instagram posts from 2 years ago in Puerto Vallarta! Tell her I'll put my swim trunks on for her any time she likes!",
     "Fuck you, <%= name1 %>, tell your mum I drained the bank account she set up for me. Top it up so I can get some fuckin' KFC!",
-    "Fuck you, <%= name1 %>, your mom ugly cried because she left the lens cap on the camcorder last night! It's fuckin' amateur hour over there!",
+    // "Fuck you, <%= name1 %>, your mom ugly cried because she left the lens cap on the camcorder last night! It's fuckin' amateur hour over there!",
     'Fuck you, <%= name1 %>, your mum shot cum straight across the room and killed my Siamese fighting fish! Threw off the pH levels in my aquarium, you piece of shit!',
     'Fuck you, <%= name1 %>, I made your mom cum so hard, they made a Canadian Heritage Minute out of it and Don McKellar played my dick!',
-    "Fuck you, <%= name1 %>, you shoulda heard your mom last night, she sounded like a window closing on a Tonkinese cat's tail; she sounded like: AAAAAA^AAAAAAA^AAAAAAA!",
-    'Fuck you, <%= name1 %>, you shoulda heard your mom last night, she sounded like my great-aunt when I pull a surprise visit; she sounded like: OOOOOO^OOOOOOO^OOOOOOH!',
+    // "Fuck you, <%= name1 %>, you shoulda heard your mom last night, she sounded like a window closing on a Tonkinese cat's tail; she sounded like: AAAAAA^AAAAAAA^AAAAAAA!",
+    // 'Fuck you, <%= name1 %>, you shoulda heard your mom last night, she sounded like my great-aunt when I pull a surprise visit; she sounded like: OOOOOO^OOOOOOO^OOOOOOH!',
     "Fuck you, <%= name1 %>, your mum groped me two Halloweens ago, shut the fuck up or I'll take it to Twitter!",
     'Fuck you, <%= name1 %>, fight me, see what happens!',
-    'Fuck you, <%= name1 %>, tell your mom to give me a time out! Last time I tried that, she threatened to take a header on me into an empty pool at the Quality Suites!',
+    // 'Fuck you, <%= name1 %>, tell your mom to give me a time out! Last time I tried that, she threatened to take a header on me into an empty pool at the Quality Suites!',
     "Fuck you, <%= name1 %>, tell your mom to leave me alone, she's been laying in my fuckin' water bed since Labour Day!",
 ];
 
