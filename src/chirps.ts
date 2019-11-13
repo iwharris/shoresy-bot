@@ -46,7 +46,9 @@ export const ref = [
 ];
 
 // gretzky
-export const gretz = ["Gretz holds or shares 61 records in the show, ya piece of shit! Don't nickel and dime the great one!"];
+export const gretz = [
+    "Gretz holds or shares sixty-one records in the show, ya piece of shit! Don't nickel and dime the great one!",
+];
 
 // mr, mister, hockey
 export const howe = ["Suck my Mr. Cockey, you fuckin' loser!"];
