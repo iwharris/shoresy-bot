@@ -74,6 +74,7 @@ async function main() {
                         const match = matchers.getMatch(context);
                         if (match) {
                             c.replies = await c.replies.fetchAll();
+                            logger.debug(`Redditors in the comment chain: ${commentChainUsernames.join(', ')}`);
                             if (c.replies.find((r) => r.author.name === myName)) {
                                 logger.debug(`I already chirped ${authorLinkName} before, ya titfucker!`);
                             } else {
