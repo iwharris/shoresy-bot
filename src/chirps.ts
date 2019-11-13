@@ -14,6 +14,16 @@ export const chirps = [
     'Make yourselves useful, grab me a bag of dill picklers!',
     'Fuck you all, your lives are so sad, I get a charity tax break just for hanging out with ya! Nice sweep, no sweep, give yer balls a tug!',
     'The fuck you looking at, ya titfucker? Give yer balls a tug!',
+    "Nice fuckin' bird cage. At the end of the day, what are you really protecting?",
+    "Great day for competitive men's hockey, eh. What's women's hockey like? Same things, less competitive or what?",
+    "First puck of the campaign, boys. Fuckin' get involved!",
+    "You skate like a fuckin' girl, birdcage. No, you're not. Are you really? Holy fuck.",
+    'Good shift, Cuteness!',
+    `We should change our Facebook status to "It's complicated".`,
+    "Hey, what's your favorite kind of pizza, Cuteness? Mine's pizza ass.",
+    'Short shifts!',
+    "Hey, you look like that broad from The Hunger Games. I'm gonna call you Cuteness Everdeen. You like edamame?",
+    'You like edamame?',
 ];
 
 // fuck, you, shoresy
@@ -32,12 +42,18 @@ export const chirps1 = [
     'Fuck you, <%= name1 %>, fight me, see what happens!',
     // 'Fuck you, <%= name1 %>, tell your mom to give me a time out! Last time I tried that, she threatened to take a header on me into an empty pool at the Quality Suites!',
     "Fuck you, <%= name1 %>, tell your mom to leave me alone, she's been laying in my fuckin' water bed since Labour Day!",
+    "Fuck you, <%= name1 %>! Your mom pulled the goalie on me and now she's preggo. Surprise, son, go rake the fucking yard.",
+    'Fuck you, <%= name1 %>! I slipped one past your mom, too. Her prego farts smell like hot dog water!',
+    "Fuck you, <%= name1 %>, I talked your mom into a three-way with our midwife and she gassed us both out of the room. I'm fuckin' humiliated!",
+    "Fuck you, <%= name1 %>, your mom wants to name the baby after the place it was conceived. Can't wait to meet Martha's Vineyard Shore.",
 ];
 
 export const chirps2 = [
     "Fuck you, <%= name1 %>, your mom keeps trying to slip a finger in my bum but I keep telling her I only let <%= name2 %>'s mom do that, ya fuckin' loser!",
     "Hey <%= name1 %>, I made an oopsie, can you ask your mom to pick up <%= name2 %>'s mom on the way over to my place? I double-booked them by mistake, you fuckin' loser!",
     "Fuck you, <%= name1 %>, your mom sneaky gushed so hard, she fucked me off the water bed last night! Don't tell her I was thinking about <%= name2 %>'s mum the entire time!",
+    "Will you two just man up and make out? I started an office pool for it and the day I picked is tomorrow. Get tuggin', tit fuckers!",
+    "Fuck you, <%= name1 %>! Your mom's in her first trimester and already bitching about baby brain. Had to tell her she's been dumber than <%= name2 %>'s mom since the genesis!",
 ];
 
 // ref, shoresy
