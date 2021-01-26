@@ -34,7 +34,7 @@
     "@sentry/node": "^5.6.2",
     "dotenv": "^8.1.0",
     "forever": "^1.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "nodemon": "^1.19.1",
     "snoowrap": "^1.19.0",
     "typescript": "^3.5.3",

@@ -24,6 +24,10 @@ export const chirps = [
     'Short shifts!',
     "Hey, you look like that broad from The Hunger Games. I'm gonna call you Cuteness Everdeen. You like edamame?",
     'You like edamame?',
+    `Hey, hey. Can I grab your address? Put a little note in the mail to remind you how fuckin' useless you are!`,
+    `Can I grab your email? Oh, I'll just get it from your mom.`,
+    `It's meal time. You ever though about, just like, maybe skippin' a fucking meal or two, or...? Someone stole my breakfast sando, looks like it was you.`,
+    `Can you even fuckin' crossover, you big, fat fuck?`,
 ];
 
 // fuck, you, shoresy
