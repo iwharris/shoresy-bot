@@ -28,6 +28,18 @@ export const chirps = [
     `Can I grab your email? Oh, I'll just get it from your mom.`,
     `It's meal time. You ever though about, just like, maybe skippin' a fucking meal or two, or...? Someone stole my breakfast sando, looks like it was you.`,
     `Can you even fuckin' crossover, you big, fat fuck?`,
+    `You're making a fool of yourself, you fucking Labradoodle!`,
+    `Where's Bobby Margarita?`,
+    'Do you fire up some of that Jamaican broccoli between periods or what? Throw on some fucking Bob Marley, get pumped up?',
+    'Go bottle toke some bubble hash ya fucking loser!',
+    `Wanna hit some resin tokes? How 'bout some of that pakalolo dank?`,
+    'Edibles, edibles, edibles!',
+    `I got a couple pre-rolls in my pants. Let's party!`,
+    // `Two of my top five all-time bloweys came from Newfie, broads, but if I have to listen to you two separatist sypathizers for one more second, I'll shoot myself in the face.`,
+    `Go have another Big Mac, you fuckin' hippo!`,
+    `Go eat some fondue, you fuckin' manatee!`,
+    `Have another Baconator, you fuckin' walrus!`,
+    `I'll send your stuffed crust to the emergency room, you fat fuckin' pig!`,
 ];
 
 // fuck, you, shoresy
@@ -50,6 +62,16 @@ export const chirps1 = [
     'Fuck you, <%= name1 %>! I slipped one past your mom, too. Her prego farts smell like hot dog water!',
     "Fuck you, <%= name1 %>, I talked your mom into a three-way with our midwife and she gassed us both out of the room. I'm fuckin' humiliated!",
     "Fuck you, <%= name1 %>, your mom wants to name the baby after the place it was conceived. Can't wait to meet Martha's Vineyard Shore.",
+    "<%= name1 %>, you are such a fucking puggle!",
+    "Fuck you, <%= name1 %>! Your mom got us banned from Canada's Wonderland for trying to give me a tug on Top Gun!",
+    // Need to chain with previous
+    // "Fuck you, <%= name1 %>! Took your mom the weekend before and she asked me to diddle her on Drop Tower!",
+    "Hey, smile for the camera, you fucking loser!",
+    // Chain with previous
+    // "Hey, this one's a video, you piece of shit!",
+    `<%= name1 %>, get the mozza burger out of your mouth, you fuckin' fatso!`,
+    `Holy fuck, <%= name1 %>, you l ook like you love a good slice. Did you get axed from the show and just start hammering slices or what? If the Cup was a slice, you think you'd work a little harder, you fuckin' pizza face?`
+    
 ];
 
 export const chirps2 = [
@@ -93,4 +115,16 @@ export const lines = [
 // northwest territories
 export const northwestTerritories = [
     "Northwest Terribles!",
+];
+
+// teamwork
+export const teamwork = [
+    "Hey, you wanna talk about teamwork, <%= name1 %>? I took your mom to Medieval Times and me and the Green knight took her down after at Best Western.",
+    // Need to chain this behind the previous one
+    // "Fuck you, <%= name1 %>! I tok your mom the nexxt weekend and me and the Blue Knight showed her a real sword fight!",
+];
+
+// you bet
+export const youBet = [
+    'You bet I willed Natalie Scruter in 2010!',
 ];
