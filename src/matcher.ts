@@ -3,6 +3,14 @@ import * as chirps from './chirps';
 
 const shoresySpellings = ['shoresy', 'shorsey'];
 
+// Convenience functions for matching
+const mentionsAny = (ctx: CommentContext, terms: string[]): boolean => terms.some((t) => ctx.body.includes(t));
+const mentions = (ctx: CommentContext, term: string): boolean => mentionsAny(ctx, [term]);
+const mentionsAll = (ctx: CommentContext, terms: string[]): boolean => terms.every((t) => ctx.body.includes(t));
+const mentionsShoresy = (ctx: CommentContext): boolean => mentionsAny(ctx, shoresySpellings);
+const threadHasSecondCommenter = (ctx: CommentContext): boolean => !!ctx.name2;
+const previousBotCommentMentions = (ctx: CommentContext, term: string) => ctx.lastBotCommentText?.includes(term);
+
 export interface IMatchers<Context = any> {
     getMatch(context: Context): IMatcher | undefined;
 }
@@ -13,9 +21,12 @@ export interface IMatcher<Context = any> {
 }
 
 export interface CommentContext {
-    authorId: string; // comment author ID
-    authorName: string; // comment author name
-    body: string; // filtered and lowercased comment body
+    /** comment author ID */
+    authorId: string;
+    /** comment author name */
+    authorName: string;
+    /** filtered and lowercased comment body */
+    body: string;
     commentChainUsernames: string[];
     name1: string;
     name2?: string;
@@ -27,11 +38,6 @@ export class Matchers implements IMatchers<CommentContext> {
     private matchers: IMatcher[];
 
     constructor() {
-        const mentionsAny = (ctx: CommentContext, terms: string[]): boolean => terms.some((t) => ctx.body.includes(t));
-        const mentions = (ctx: CommentContext, term: string): boolean => mentionsAny(ctx, [term]);
-        const mentionsAll = (ctx: CommentContext, terms: string[]): boolean => terms.every((t) => ctx.body.includes(t));
-        const mentionsShoresy = (ctx: CommentContext): boolean => mentionsAny(ctx, shoresySpellings);
-        const threadHasSecondCommenter = (ctx: CommentContext): boolean => !!ctx.name2;
 
         // matchers are evaluated in order until a match is found
         // matchers go from specific to general
