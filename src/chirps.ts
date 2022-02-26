@@ -89,3 +89,8 @@ export const coming = [
 export const lines = [
     "Hey, you want to talk about lines ya fuckin' loser? I woke up to your mom ripping dick dingers off my foreskin! Tell her to keep her hands off my scoops!",
 ];
+
+// northwest territories
+export const northwestTerritories = [
+    "Northwest Terribles!",
+];

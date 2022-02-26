@@ -36,6 +36,7 @@ export class Matchers implements IMatchers<CommentContext> {
         // matchers are evaluated in order until a match is found
         // matchers go from specific to general
         this.matchers = [
+            new CommentMatcher((ctx) => mentions(ctx, 'northwest territories'), chirps.northwestTerritories),
             new CommentMatcher((ctx) => mentions(ctx, 'gretz'), chirps.gretz),
             new CommentMatcher(
                 (ctx) => mentionsAny(ctx, ['mister', 'mr']) && mentionsAny(ctx, ['hockey']),
