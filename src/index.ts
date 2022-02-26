@@ -23,6 +23,18 @@ async function fetchParentComments(commentId: string, maxDepth: number = Infinit
         : [comment, ...(await fetchParentComments(comment.parent_id, maxDepth))];
 }
 
+function getLastShoresyCommentText(myName: string, comments: Snoowrap.Comment[]): string | null {
+    const secondComment = comments[1];
+
+    console.log(secondComment?.author.name)
+
+    if (secondComment?.author.name.toLowerCase() === 'Shoresy___Bot'.toLowerCase()) {
+        return util.filterText(secondComment.body, [['\n', '']]);
+    }
+
+    return null;
+}
+
 async function main() {
     const myName = await reddit.getMe().then((me) => me.name);
     const blacklist = [...chirps.redditorBlacklist, myName.toLowerCase()];
@@ -62,7 +74,9 @@ async function main() {
                             .values();
                         const commentChainUsernames = Array.from(commentChainIterable);
                         const name2 = _.sample(commentChainUsernames);
-                        
+                        const lastBotCommentText = getLastShoresyCommentText(myName, parentComments);
+                        console.log(`MATCHED ${lastBotCommentText}`)
+
                         const context: CommentContext = {
                             authorId: c.author.id,
                             authorName: authorLinkName,

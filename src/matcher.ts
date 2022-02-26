@@ -30,6 +30,8 @@ export interface CommentContext {
     commentChainUsernames: string[];
     name1: string;
     name2?: string;
+    /** If the parent comment is replying to one of my chirps, this stores it in lowercase */
+    lastBotCommentText?: string;
 }
 
 export type MatchFunc<Context> = (context: Context) => boolean;
