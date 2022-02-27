@@ -64,14 +64,8 @@ export const chirps1 = [
     "Fuck you, <%= name1 %>, your mom wants to name the baby after the place it was conceived. Can't wait to meet Martha's Vineyard Shore.",
     "<%= name1 %>, you are such a fucking puggle!",
     "Fuck you, <%= name1 %>! Your mom got us banned from Canada's Wonderland for trying to give me a tug on Top Gun!",
-    // Need to chain with previous
-    // "Fuck you, <%= name1 %>! Took your mom the weekend before and she asked me to diddle her on Drop Tower!",
     "Hey, smile for the camera, you fucking loser!",
-    // Chain with previous
-    // "Hey, this one's a video, you piece of shit!",
     `<%= name1 %>, get the mozza burger out of your mouth, you fuckin' fatso!`,
-    `Holy fuck, <%= name1 %>, you l ook like you love a good slice. Did you get axed from the show and just start hammering slices or what? If the Cup was a slice, you think you'd work a little harder, you fuckin' pizza face?`
-    
 ];
 
 export const chirps2 = [
@@ -117,14 +111,15 @@ export const northwestTerritories = [
     "Northwest Terribles!",
 ];
 
-// teamwork
-export const teamwork = [
-    "Hey, you wanna talk about teamwork, <%= name1 %>? I took your mom to Medieval Times and me and the Green knight took her down after at Best Western.",
-    // Need to chain this behind the previous one
-    // "Fuck you, <%= name1 %>! I tok your mom the nexxt weekend and me and the Blue Knight showed her a real sword fight!",
-];
+// teamwork chain
+export const teamwork1 = ["Hey, you wanna talk about teamwork, <%= name1 %>? I took your mom to Medieval Times and me and the Green knight took her down after at Best Western."];
+export const teamwork2 = ["Fuck you, <%= name1 %>! I took your mom the next weekend and me and the Blue Knight showed her a real sword fight!"];
 
-// you bet
-export const youBet = [
-    'You bet I willed Natalie Scruter in 2010!',
-];
+// slices chain
+export const slices2 = [`Holy fuck, <%= name1 %>, you look like you love a good slice. Did you get axed from the show and just start hammering slices or what? If the Cup was a slice, you think you'd work a little harder, you fuckin' pizza face?`];
+
+// wonderland chain
+export const wonderland2 = ["Fuck you, <%= name1 %>! Took your mom the weekend before and she asked me to diddle her on Drop Tower!"];
+
+// camera chain
+export const camera2 = ["Hey, this one's a video, you piece of shit!"];

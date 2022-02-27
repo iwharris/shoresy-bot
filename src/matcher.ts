@@ -9,7 +9,8 @@ const mentions = (ctx: CommentContext, term: string): boolean => mentionsAny(ctx
 const mentionsAll = (ctx: CommentContext, terms: string[]): boolean => terms.every((t) => ctx.body.includes(t));
 const mentionsShoresy = (ctx: CommentContext): boolean => mentionsAny(ctx, shoresySpellings);
 const threadHasSecondCommenter = (ctx: CommentContext): boolean => !!ctx.name2;
-const previousBotCommentMentions = (ctx: CommentContext, term: string) => ctx.lastBotCommentText?.includes(term);
+const previousBotCommentMentions = (ctx: CommentContext, term: string) => ctx.lastBotCommentText && ctx.lastBotCommentText.includes(term) || false;
+const chirpsShoresy = (ctx: CommentContext) => mentionsShoresy(ctx) || mentionsAll(ctx, ['fuck', 'you']);
 
 export interface IMatchers<Context = any> {
     getMatch(context: Context): IMatcher | undefined;
@@ -44,6 +45,19 @@ export class Matchers implements IMatchers<CommentContext> {
         // matchers are evaluated in order until a match is found
         // matchers go from specific to general
         this.matchers = [
+            // chain comment (teamwork)
+            new CommentMatcher((ctx) => mentions(ctx, 'teamwork'), chirps.teamwork1),
+            new CommentMatcher((ctx) => previousBotCommentMentions(ctx, 'took her down after at best western') && chirpsShoresy(ctx), chirps.teamwork2),
+
+            // chain comment (slices)
+            new CommentMatcher((ctx) => previousBotCommentMentions(ctx, 'mozza burger out of your mouth') && chirpsShoresy(ctx), chirps.slices2),
+
+            // chain comment (wonderland)
+            new CommentMatcher((ctx) => previousBotCommentMentions(ctx, 'trying to give me a tug on top gun') && chirpsShoresy(ctx) && threadHasSecondCommenter(ctx), chirps.wonderland2),
+
+            // chain comment (camera)
+            new CommentMatcher((ctx) => previousBotCommentMentions(ctx, 'smile for the camera') && chirpsShoresy(ctx), chirps.camera2),
+
             new CommentMatcher((ctx) => mentions(ctx, 'northwest territories'), chirps.northwestTerritories),
             new CommentMatcher((ctx) => mentions(ctx, 'gretz'), chirps.gretz),
             new CommentMatcher(
