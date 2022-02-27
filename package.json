@@ -37,7 +37,7 @@
     "lodash": "^4.17.21",
     "nodemon": "^1.19.1",
     "snoowrap": "^1.19.0",
-    "typescript": "^3.9.10",
+    "typescript": "^3.5.3",
     "winston": "^3.2.1"
   },
   "devDependencies": {
@@ -47,6 +47,6 @@
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-prettier": "^3.1.0",
     "prettier": "1.18.2",
-    "ts-node": "^8.10.2"
+    "ts-node": "^8.3.0"
   }
 }
