@@ -23,6 +23,14 @@ async function fetchParentComments(commentId: string, maxDepth: number = Infinit
         : [comment, ...(await fetchParentComments(comment.parent_id, maxDepth))];
 }
 
+function getLastShoresyCommentText(myName: string, comments: Snoowrap.Comment[]): string | undefined {
+    const secondComment = comments[1];
+
+    if (secondComment&& secondComment.author.name.toLowerCase() === 'Shoresy___Bot'.toLowerCase()) {
+        return util.filterText(secondComment.body, [['\n', '']]);
+    }
+}
+
 async function main() {
     const myName = await reddit.getMe().then((me) => me.name);
     const blacklist = [...chirps.redditorBlacklist, myName.toLowerCase()];
@@ -51,8 +59,11 @@ async function main() {
                 comments
                     .filter((c) => !util.isBlacklistedRedditor(c.author.name, blacklist))
                     .forEach(async (c) => {
+                        
                         const authorLowercaseName = c.author.name.toLowerCase();
+                        const body = util.filterText(c.body, [['\n', '']]);
                         const authorLinkName = util.linkName(c.author.name);
+                        const responseLogger = logger.child({ dryRun: chirps.dryRun });
                         const commentChainBlacklist = [...blacklist, authorLowercaseName]; // Don't consider parent comments from this comment's author
                         const parentComments = await fetchParentComments(c.parent_id, 3);
                         const commentChainIterable = parentComments
@@ -62,24 +73,27 @@ async function main() {
                             .values();
                         const commentChainUsernames = Array.from(commentChainIterable);
                         const name2 = _.sample(commentChainUsernames);
-                        
+                        const lastBotCommentText = getLastShoresyCommentText(myName, parentComments);
+
                         const context: CommentContext = {
                             authorId: c.author.id,
                             authorName: authorLinkName,
-                            body: util.filterText(c.body, [['\n', '']]),
+                            body,
                             commentChainUsernames, // usernames from parent comments
                             name1: authorLinkName,
                             name2: name2 ? util.linkName(name2) : undefined,
+                            lastBotCommentText,
                         };
                         const match = matchers.getMatch(context);
                         if (match) {
                             c.replies = await c.replies.fetchAll();
-                            logger.debug(`Redditors in the comment chain: ${commentChainUsernames.join(', ')}`);
+                            // responseLogger.debug(`Redditors in the comment chain: ${commentChainUsernames.join(', ')}`);
                             if (c.replies.find((r) => r.author.name === myName)) {
-                                logger.debug(`I already chirped ${authorLinkName} before, ya titfucker!`);
+                                responseLogger.debug(`I already chirped ${authorLinkName} before, ya titfucker!`);
                             } else {
                                 const chirp = match.getChirp(context);
-                                logger.info(`Chirping ${authorLinkName} on /r/${subredditName}: ${chirp}`);
+                                responseLogger.debug(`Responding to ${authorLinkName} who posted: "${body}"`);
+                                responseLogger.info(`Chirping ${authorLinkName} on /r/${subredditName}: ${chirp}`);
                                 if (!chirps.dryRun) {
                                     await c.upvote().then(() => {});
                                     c.reply(chirp);
