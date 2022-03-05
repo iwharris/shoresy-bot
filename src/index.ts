@@ -26,8 +26,8 @@ async function fetchParentComments(commentId: string, maxDepth: number = Infinit
 function getLastShoresyCommentText(myName: string, comments: Snoowrap.Comment[]): string | undefined {
     const secondComment = comments[1];
 
-    if (secondComment&& secondComment.author.name.toLowerCase() === 'Shoresy___Bot'.toLowerCase()) {
-        return util.filterText(secondComment.body, [['\n', '']]);
+    if (secondComment&& secondComment.author.name.toLowerCase() === myName.toLowerCase()) {
+        return util.filterText(secondComment.body, [['\n', '']]).toLowerCase();
     }
 }
 
