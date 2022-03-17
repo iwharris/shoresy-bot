@@ -23,6 +23,29 @@ const clientConfigOptions: Snoowrap.ConfigOptions = {
     continueAfterRatelimitError: true,
 };
 
+function getLogConfig() {
+    const baseConfig = {
+        level: process.env.LOG_LEVEL || 'info',
+    };
+
+    if (process.env.LOG_TO_CONSOLE) {
+        return {
+            ...baseConfig,
+            format: winston.format.simple(),
+            transports: [new winston.transports.Console({ stderrLevels: ['error', 'fatal'] })],
+        };
+    } else {
+        return {
+            ...baseConfig,
+            format: winston.format.json(),
+            transports: [
+                new winston.transports.File({ filename: 'error.log', level: 'error' }),
+                new winston.transports.File({ filename: 'shoresy.log' }),
+            ],
+        };
+    }
+}
+
 export default {
     app: {
         gitHash,
@@ -42,18 +65,11 @@ export default {
             'remindmebot',
             'ClickableLinkBot',
             '[deleted]',
-            'AutoModerator'
+            'AutoModerator',
             // Bot's own name will be appended to this list
         ].map((b) => b.toLowerCase()),
     },
-    logging: {
-        level: process.env.LOG_LEVEL || 'info',
-        format: winston.format.json(),
-        transports: [
-            new winston.transports.File({ filename: 'error.log', level: 'error' }),
-            new winston.transports.File({ filename: 'shoresy.log' }),
-        ],
-    },
+    logging: getLogConfig(),
     sentry: {
         dsn: process.env.SENTRY_DSN,
         release: environmentVersion,
