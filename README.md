@@ -8,6 +8,8 @@ Shoresy is a [beloved](https://youtu.be/LHf1I6rlyDk) character on [Letterkenny](
 
 ![Give yer balls a tug!](images/thread.png?raw=true)
 
+The bot is [live on Reddit](https://reddit.com/u/shoresy___bot) and has been very well-received, regularly breaking into the [top 100 bots sitewide](https://botrank.pastimes.eu/).
+
 ## Installation
 
 ```bash
